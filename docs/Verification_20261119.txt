@@ -1,0 +1,56 @@
+
+> accidental-magic-workshop@0.9.0 test
+> node scripts/tests-reference.cjs && node scripts/tests-support.cjs && node scripts/tests-app.cjs && node scripts/tests-visuals.cjs
+
+A 초안 필수 11/11
+B 붙임줄 회귀 11/11
+C 공식 23/23
+D 전수 23/23
+E 의뢰 1692/1692
+전수 악보 2591406 · 붙임줄 악보 427788 · 의뢰 66 {"name":3,"notch":4,"sign":13,"key":31,"reach":5,"why":3,"link":3,"fix":4} · 갈래 {"sym":7,"semi":17,"reach":31,"notate":11}
+가장 좁은 음표 간격 30.7px d7-03 · 가장 넓은 건반 창 7 d5-08 · 두 쪽 창 d4-01,d4-02,d4-05,d4-06,d4-08,d5-03,d5-04,d5-08,d6-06,d7-06
+문장 수 594 · 서로 다른 문장 217 · 가장 긴 문장(em) 38.5
+실패 0
+PASS SV-01 fresh progress has independent category counters
+PASS SV-02 successful save/load preserves anonymous progress
+PASS SV-03 missing optional version-1 fields merge defaults
+PASS SV-04 malformed JSON is backed up exactly
+PASS SV-05 future version backed up without migration
+PASS SV-06 corrupt field triggers safe backup
+PASS SV-07 blocked localStorage retains in-memory progress
+PASS SV-08 loaded copies cannot mutate stored memory
+PASS SV-09 reset removes progress and corrupt backup
+PASS SV-10 review is deduplicated and capped to two
+PASS AU-01 direct piano uses exact equal temperament and triangle wave
+PASS AU-02 direct key minimum duration is 0.12 seconds
+PASS AU-03 score reserves every oscillator immediately from shared t0
+PASS AU-04 tied note sequence produces one oscillator for tied sound
+PASS AU-05 stop cancels future oscillators as a group
+PASS AU-06 a new key cancels a scheduled score
+PASS AU-07 slow playback uses quarter note 54
+PASS AU-08 legato sound has no pre-next-note gap
+PASS AU-09 visual-only playback completes without AudioContext
+PASS AU-10 audio interruption notifies once and cancels playback
+PASS AU-11 mute and volume affect master gain
+PASS AU-12 explicit sound array supports meter override
+PASS AU-13 null sentinel clears active note during rests
+PASS AU-14 leading rests are omitted while internal rests remain
+PASS AU-15 scheduled release fits inside note length and retains gap
+PASS AU-16 frozen initial audio clock falls back to visual playback
+PASS AU-17 pending iframe resume resolves visual fallback at 1.2s and retries
+PASS AU-18 transient resume rejection is retryable and clears deadline frame
+Support checks: 28/28 passed
+Browser pure checks: 70/70 (693ms; 71,982-score oracle enabled)
+Session progression: 2816 outcome combinations and all 66 repeat positions passed
+PASS all five accidentals use local paths and names
+PASS F5 anchors fifth line, C4 ledger and B3 stay fixed
+PASS explicit no-sign override clears, null override restores placeholder
+PASS bands stop at overwrite, never go backward or to next bar
+PASS curve-classified tie displays maintain overlay
+PASS whole, half and quarter rests have distinct duration symbols
+PASS all 66 keyboard windows meet minimum white/black hit widths
+PASS pointer cancellation, blur and keyboard release stop held keys once
+PASS arrows move roving keyboard focus and assistive click can select
+PASS playback steps reuse score nodes and keep focus targets
+PASS device reuses all nodes across notes and shows no new-bar tie memory
+Visual regressions: 11/11 passed

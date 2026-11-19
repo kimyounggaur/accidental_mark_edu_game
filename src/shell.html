@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#5b3fb0"><meta name="description" content="악보는 그대로, 소리에는 마법을. 다섯 임시표와 마디의 규칙을 듣고, 고르고, 연주하는 음악이론 공방."><title>임시표 마법 공방 · CHARM</title><style>/*STYLES*/</style></head>
+<body>
+<div id="app">
+<header id="header" class="header">
+<button class="brand" id="brand" aria-label="공방 홈"><span class="brand-mark" id="brand-mark"></span><span><b>임시표 마법 공방</b><small>CHARM MUSIC WORKSHOP</small></span></button>
+<div id="shift-hud" hidden><span id="day-label"></span><span id="progress-dots"></span><span id="count-label"></span></div>
+<nav id="navigation" aria-label="공방 메뉴"><button data-nav="map">작업일 지도</button><button data-nav="book">마법 도감</button><button data-nav="free">자유 공방</button><button data-nav="report">학습 기록</button></nav>
+<div class="header-actions"><button class="icon-button" id="sound-toggle" aria-label="소리 끄기"></button><button class="icon-button" id="settings-open" aria-label="설정"></button><button class="icon-button mobile-menu" id="menu-open" aria-label="메뉴 열기"></button></div>
+</header>
+<main id="page" class="page"></main>
+<section id="game" class="game" hidden aria-label="음악 의뢰">
+<div class="order-row"><span class="order-tag" id="order-tag"></span><h1 id="order-text"></h1><span class="phase-label" id="phase-label">판단</span></div>
+<div class="stage"><div class="score-heading"><span id="score-caption">손님의 악보</span><span id="bar-flash" class="bar-flash" hidden role="status">마디선: 기억 지움</span><span id="score-note">음이름은 그대로, 건반이 바뀌어요</span></div><div id="score" class="score-wrap"></div><div class="device-row"><div id="device"></div><div id="play-meter" hidden><span id="play-instruction"></span><div class="hold-track"><div id="hold-fill"></div></div></div></div></div>
+<div id="readout" class="readout" role="status" aria-live="polite"><span id="readout-icon"></span><p id="readout-text"></p></div>
+<div class="controls"><div id="input-block" class="input-block"><div class="keys-caption"><span id="keys-caption">건반을 눌러 소리를 들어요</span><span id="selection-caption"></span></div><div id="keys" class="keys-wrap"></div><div id="choices" class="choices" hidden></div></div><div id="action-row" class="action-row"><button id="target-listen" class="button secondary" hidden>목표 듣기</button><button id="own-listen" class="button secondary" hidden>내 소리</button><button id="confirm" class="button primary">확정</button><button id="play-start" class="button primary" hidden>연주 시작</button><button id="machine-play" class="button secondary" hidden>기계 연주</button><button id="deliver" class="button primary" hidden>납품</button><button id="listen-again" class="button secondary" hidden>다시 듣기</button><button id="next-order" class="button primary" hidden>다음 의뢰</button></div></div>
+</section>
+</div>
+<div id="sheet" class="sheet-backdrop" hidden><section class="sheet-panel" role="dialog" aria-modal="true" aria-label="발견 장면"><button id="sheet-close" class="icon-button sheet-close" aria-label="닫기">×</button><div id="sheet-content"></div></section></div>
+<div id="fatal" hidden role="alert"><h2>문제가 생겼어요</h2><p>기록을 보관했어요. 화면을 다시 열어 주세요.</p><button class="button primary" onclick="location.reload()">새로고침</button></div>
+<script>/*SCRIPT*/</script></body></html>

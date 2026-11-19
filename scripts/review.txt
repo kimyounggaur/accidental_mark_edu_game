@@ -1,0 +1,66 @@
+d0-01 | name | 이 표의 이름을 골라요. | 샵 |  | F4~A4 (3) | 156.1 | 이 표는 샵이에요. 올림표라고도 해요. | NAME
+d0-02 | name | 이 표의 이름을 골라요. | 플랫 |  | F4~A4 (3) | 156.1 | 이 표는 플랫이에요. 내림표라고도 해요. | NAME
+d0-03 | notch | 이 표는 소리를 몇 칸 보낼까요? | 위로 1칸 | WHITE→위로 2칸 DIR→아래로 1칸 PLAIN→제자리 | F4~A4 (3) | 156.1 | 샵은 소리를 자연음에서 반음 1칸 위로 보내요. | PLAIN DIR
+d0-04 | notch | 이 표는 소리를 몇 칸 보낼까요? | 아래로 1칸 | WHITE→아래로 2칸 DIR→위로 1칸 PLAIN→제자리 | F4~A4 (3) | 156.1 | 플랫은 소리를 자연음에서 반음 1칸 아래로 보내요. | DIR PLAIN
+d0-05 | notch | 이 표는 소리를 몇 칸 보낼까요? | 제자리 | NAT_DOWN→아래로 1칸 | F4~A4 (3) | 156.1 | 내추럴은 소리를 자연음 자리에 놓아요. 시소가 수평이에요. | OTHER NAT_DOWN
+d0-06 | notch | 이 표는 소리를 몇 칸 보낼까요? | 위로 2칸 | HALF→위로 1칸 DIR→아래로 2칸 PLAIN→제자리 | F4~A4 (3) | 156.1 | 더블샵은 소리를 자연음에서 반음 2칸 위로 보내요. | HALF PLAIN OTHER DIR
+d0-07 | name | 이 표의 이름을 골라요. | 더블플랫 |  | F4~A4 (3) | 156.1 | 이 표는 더블플랫이에요. 겹내림표라고도 해요. | NAME
+d0-08 | sign | 소리를 아래로 2칸 보내는 표를 골라요. | 더블플랫 | WHITE→플랫 DIR→더블샵 | F4~A4 (3) | 156.1 | 더블플랫은 소리를 자연음에서 아래로 2칸 보내요. | OTHER WHITE DIR
+d1-01 | key | 화살표 음은 어느 건반일까요? | C♯4·D♭4(61) | WHITE→D4(62) DIR→B3(59) PLAIN→C4(60) | A3~D4 (4) | 156.1 | 샵은 C 자연음에서 반음 1칸 위예요. C♯4 건반이에요. | FAR OTHER DIR PLAIN WHITE
+d1-02 | key | 화살표 음은 어느 건반일까요? | C♯4·D♭4(61) | WHITE→C4(60) DIR→D♯4·E♭4(63) PLAIN→D4(62) | C4~E4 (3) | 156.1 | 플랫은 D 자연음에서 반음 1칸 아래예요. D♭4 건반이에요. | WHITE PLAIN DIR OTHER
+d1-03 | sign | 빛나는 건반 소리가 나게 표를 골라요. 필요 없으면 없음. | 플랫 | DIR→샵 | G4~B4 (3) | 156.1 | 플랫은 A 자연음에서 반음 1칸 아래예요. | OTHER DIR
+d1-04 | sign | 빛나는 건반 소리가 나게 표를 골라요. 필요 없으면 없음. | 샵 | DIR→플랫 | D4~G4 (4) | 156.1 | 샵은 F 자연음에서 반음 1칸 위예요. | OTHER DIR
+d1-05 | key | 화살표 음은 어느 건반일까요? | F4(65) | BLACK→F♯4·G♭4(66) DIR→D♯4·E♭4(63) PLAIN→E4(64) | D4~G4 (4) | 156.1 | 샵은 E 자연음에서 반음 1칸 위예요. 흰 건반 F4와 같은 건반이에요. | OTHER DIR PLAIN BLACK FAR
+d1-06 | key | 화살표 음은 어느 건반일까요? | B4(71) | BLACK→A♯4·B♭4(70) DIR→C♯5·D♭5(73) PLAIN→C5(72) | A4~D5 (4) | 156.1 | 플랫은 C 자연음에서 반음 1칸 아래예요. 흰 건반 B4와 같은 건반이에요. | FAR BLACK PLAIN DIR OTHER
+d1-07 | key | 화살표 음은 어느 건반일까요? | C5(72) | BLACK→C♯5·D♭5(73) DIR→A♯4·B♭4(70) PLAIN→B4(71) | A4~D5 (4) | 156.1 | 샵은 B 자연음에서 반음 1칸 위예요. 흰 건반 C5와 같은 건반이에요. | OTHER DIR PLAIN BLACK FAR
+d1-08 | key | 화살표 음은 어느 건반일까요? | E4(64) | BLACK→D♯4·E♭4(63) DIR→F♯4·G♭4(66) PLAIN→F4(65) | D4~G4 (4) | 156.1 | 플랫은 F 자연음에서 반음 1칸 아래예요. 흰 건반 E4와 같은 건반이에요. | FAR BLACK PLAIN DIR OTHER
+d2-01 | key | 화살표 음은 어느 건반일까요? | D4(62) | HALF→C♯4·D♭4(61) DIR→A♯3·B♭3(58) PLAIN→C4(60) | A3~D4 (4) | 156.1 | 더블샵은 C 자연음에서 반음 2칸 위예요. 흰 건반 D4와 같은 건반이에요. | FAR DIR OTHER PLAIN HALF
+d2-02 | key | 화살표 음은 어느 건반일까요? | C4(60) | HALF→C♯4·D♭4(61) DIR→E4(64) PLAIN→D4(62) | C4~E4 (3) | 156.1 | 더블플랫은 D 자연음에서 반음 2칸 아래예요. 흰 건반 C4와 같은 건반이에요. | HALF PLAIN OTHER DIR
+d2-03 | sign | 빛나는 건반 소리가 나게 표를 골라요. 필요 없으면 없음. | 더블샵 | WHITE→샵 DIR→더블플랫 | D4~G4 (4) | 156.1 | 더블샵은 F 자연음에서 반음 2칸 위예요. | OTHER WHITE DIR
+d2-04 | key | 화살표 음은 어느 건반일까요? | D4(62) | ADD→D♯4·E♭4(63) HALF→C♯4·D♭4(61) DIR→A♯3·B♭3(58) PLAIN→C4(60) | A3~E4 (5) | 78.1 | 더블샵은 C 자연음에서 반음 2칸 위예요. 흰 건반 D4와 같은 건반이에요. | FAR DIR OTHER PLAIN HALF ADD
+d2-05 | key | 화살표 음은 어느 건반일까요? | D4(62) | NAT_DOWN→C4(60) | C4~E4 (3) | 78.1 | 내추럴은 D 자연음 자리예요. 앞의 표와 조표를 덮어요. | NAT_DOWN OTHER
+d2-06 | key | 화살표 음은 어느 건반일까요? | C4(60) | NAT_ONE→C♯4·D♭4(61) NAT_DOWN→C♯4·D♭4(61) | A3~D4 (4) | 78.1 | 내추럴은 C 자연음 자리예요. 앞의 표와 조표를 덮어요. | FAR OTHER NAT_ONE
+d2-07 | sign | 빛나는 건반 소리가 나게 표를 골라요. 필요 없으면 없음. | 플랫 | ADD→샵 HALF→없음 DIR→샵 | D4~G4 (4) | 78.1 | 앞의 더블플랫이 아직 닿아요. 플랫으로 자리를 새로 정해요. | HALF ADD OTHER
+d2-08 | sign | 빛나는 건반 소리가 나게 표를 골라요. 필요 없으면 없음. | 샵 | ADD→플랫 HALF→없음 DIR→플랫 | A3~D4 (4) | 78.1 | 앞의 더블샵이 아직 닿아요. 샵으로 자리를 새로 정해요. | HALF ADD OTHER
+d3-01 | key | 화살표 음은 어느 건반일까요? | G♯4·A♭4(68) | SIGN_ONLY→G4(67) DIR→F♯4·G♭4(66) PLAIN→G4(67) | F4~A4 (3) | 53.2 | 같은 마디 앞의 샵이 아직 닿아요. 이 음도 G♯4예요. | OTHER DIR SIGN_ONLY
+d3-02 | reach | 빛나는 샵의 힘이 닿는 음표를 모두 골라요. | {2} | SIGN_ONLY→{} PLAIN→{} | F4~A4 (3) | 53.2 | 표는 붙은 곳부터 마디 끝까지, 같은 줄·칸에만 닿아요. 닿는 음표는 1개예요. | SIGN_ONLY MISS EXTRA
+d3-03 | key | 화살표 음은 어느 건반일까요? | A♯4·B♭4(70) | SIGN_ONLY→B4(71) DIR→C5(72) PLAIN→B4(71) | A4~D5 (4) | 53.2 | 같은 마디 앞의 플랫이 아직 닿아요. 이 음도 B♭4예요. | OTHER SIGN_ONLY DIR FAR
+d3-04 | sign | 빛나는 건반 소리가 나게 표를 골라요. 필요 없으면 없음. | 없음 | SIGN_ONLY→샵 DIR→플랫 | F4~A4 (3) | 47.5 | 같은 마디 앞의 샵이 아직 닿아요. 표가 없어도 G♯4예요. | REDUNDANT DIR OTHER
+d3-05 | key | 화살표 음은 어느 건반일까요? | F4(65) | WHOLE_BAR→F♯4·G♭4(66) | D4~G4 (4) | 53.2 | 뒤에 나오는 표는 앞의 음에 닿지 않아요. F 자연음이에요. | FAR OTHER WHOLE_BAR
+d3-06 | sign | 빛나는 건반 소리가 나게 표를 골라요. 필요 없으면 없음. | 내추럴 | ADD→샵 SIGN_ONLY→없음 PLAIN→없음 | D4~G4 (4) | 47.5 | 앞의 플랫이 아직 닿아요. 내추럴로 자리를 새로 정해요. | SIGN_ONLY ADD OTHER
+d3-07 | reach | 빛나는 플랫의 힘이 닿는 음표를 모두 골라요. | {3} | WHOLE_BAR→{0,3} SIGN_ONLY→{} PLAIN→{} | A4~C5 (3) | 53.2 | 표는 붙은 곳부터 마디 끝까지, 같은 줄·칸에만 닿아요. 닿는 음표는 1개예요. | SIGN_ONLY MISS WHOLE_BAR EXTRA
+d3-08 | key | 화살표 음은 어느 건반일까요? | C5(72) | NAT_ONCE→C♯5·D♭5(73) | A4~D5 (4) | 47.5 | 가장 가까운 앞의 내추럴이 닿아요. 이 음도 C 자연음이에요. | FAR OTHER NAT_ONCE
+d4-01 | key | 화살표 음은 어느 건반일까요? | G5(79) | ALL_OCT→G♯5·A♭5(80) | G4~B4 + F5~A5 (6) | 94.9 | 앞의 표는 G4 자리에 붙었어요. G5에는 닿지 않아요. | FAR OTHER ALL_OCT
+d4-02 | reach | 빛나는 샵의 힘이 닿는 음표를 모두 골라요. | {3} | ALL_OCT→{1,3} SIGN_ONLY→{} PLAIN→{} | G4~B4 + G5~B5 (6) | 53.2 | 표는 붙은 곳부터 마디 끝까지, 같은 줄·칸에만 닿아요. 닿는 음표는 1개예요. | SIGN_ONLY MISS ALL_OCT EXTRA
+d4-03 | key | 화살표 음은 어느 건반일까요? | G4(67) | NO_BAR→G♯4·A♭4(68) | F4~A4 (3) | 48.4 | 앞 마디의 표는 마디선에서 풀렸어요. G 자연음이에요. | OTHER NO_BAR
+d4-04 | sign | 빛나는 건반 소리가 나게 표를 골라요. 필요 없으면 없음. | 플랫 | NO_BAR→없음 DIR→샵 | A4~D5 (4) | 43.6 | 앞 마디의 표는 마디선에서 풀렸어요. 플랫을 다시 붙여요. | NO_BAR DIR OTHER
+d4-05 | why | 화살표 음의 높이는 무엇이 정했을까요? | 아무것도 없음 | ALL_OCT→같은 마디 앞의 표 | F4~A4 + E5~G5 (6) | 68.2 | 앞의 표는 F5 자리에 붙었어요. F4에는 닿지 않아요. | WHY
+d4-06 | reach | 빛나는 샵의 힘이 닿는 음표를 모두 골라요. | {2} | NO_BAR→{2,3} SIGN_ONLY→{} PLAIN→{} | F4~A4 + F5~A5 (6) | 34.6 | 표는 붙은 곳부터 마디 끝까지, 같은 줄·칸에만 닿아요. 닿는 음표는 1개예요. | SIGN_ONLY MISS EXTRA NO_BAR
+d4-07 | key | 화살표 음은 어느 건반일까요? | F♯4·G♭4(66) | SIGN_ONLY→F4(65) DIR→E4(64) PLAIN→F4(65) | D4~G4 (4) | 42.8 | 가장 가까운 앞의 샵이 닿아요. 이 음도 F♯4예요. | FAR OTHER DIR SIGN_ONLY
+d4-08 | reach | 빛나는 플랫의 힘이 닿는 음표를 모두 골라요. | {2} | ALL_OCT→{1,2} NO_BAR→{2,3} SIGN_ONLY→{} PLAIN→{} | E4~G4 + D5~F5 (6) | 34.6 | 표는 붙은 곳부터 마디 끝까지, 같은 줄·칸에만 닿아요. 닿는 음표는 1개예요. | SIGN_ONLY MISS ALL_OCT NO_BAR EXTRA
+d5-01 | key | 화살표 음은 어느 건반일까요? | F♯4·G♭4(66) | KEY_OCT→F4(65) NO_KEY→F4(65) PLAIN→F4(65) | D4~A4 (5) | 58.0 | 조표의 샵은 모든 F에 걸려요. F♯4 건반이에요. | FAR OTHER NO_KEY
+d5-02 | key | 화살표 음은 어느 건반일까요? | F4(65) | NAT_KEY→F♯4·G♭4(66) | D4~G4 (4) | 51.0 | 내추럴은 F 자연음 자리예요. 앞의 표와 조표를 덮어요. | FAR OTHER NAT_KEY
+d5-03 | key | 화살표 음은 어느 건반일까요? | G♯4·A♭4(68) | KEY_OCT→G4(67) NO_KEY→G4(67) PLAIN→G4(67) | F4~A4 + G5~B5 (6) | 106.0 | 조표의 샵은 모든 G에 걸려요. G♯4 건반이에요. | OTHER KEY_OCT FAR
+d5-04 | why | 화살표 음의 높이는 무엇이 정했을까요? | 조표 | ALL_OCT→같은 마디 앞의 표 NO_KEY→아무것도 없음 PLAIN→아무것도 없음 | G4~B4 + G5~B5 (6) | 59.7 | 앞의 표는 G4 자리에 붙었어요. G5는 조표대로 G♯5예요. | WHY
+d5-05 | key | 화살표 음은 어느 건반일까요? | F4(65) | NAT_KEY→F♯4·G♭4(66) NAT_ONCE→F♯4·G♭4(66) SIGN_ONLY→F♯4·G♭4(66) | D4~G4 (4) | 51.0 | 같은 마디 앞의 내추럴이 아직 닿아요. 이 음도 F 자연음이에요. | FAR OTHER NAT_ONCE
+d5-06 | key | 화살표 음은 어느 건반일까요? | F♯4·G♭4(66) | NO_BAR→F4(65) KEY_OCT→F4(65) NO_KEY→F4(65) PLAIN→F4(65) | D4~G4 (4) | 46.4 | 앞 마디의 표는 마디선에서 풀렸어요. 조표대로 F♯4예요. | FAR OTHER NO_BAR
+d5-07 | sign | 빛나는 건반 소리가 나게 표를 골라요. 필요 없으면 없음. | 샵 | NAT_KEY→없음 NAT_ONCE→없음 SIGN_ONLY→없음 DIR→플랫 | D4~G4 (4) | 45.5 | 앞의 내추럴이 아직 닿아요. 샵으로 자리를 새로 정해요. | NAT_ONCE DIR OTHER
+d5-08 | key | 화살표 음은 어느 건반일까요? | D♯4·E♭4(63) | ALL_OCT→E4(64) KEY_OCT→E4(64) NO_KEY→E4(64) PLAIN→E4(64) | D4~G4 + D5~F5 (7) | 62.5 | 앞의 표는 E5 자리에 붙었어요. E4는 조표대로 E♭4예요. | OTHER ALL_OCT FAR
+d6-01 | key | 화살표 음은 어느 건반일까요? | F♯4·G♭4(66) | TIE_BAR→F4(65) DIR→E4(64) PLAIN→F4(65) | D4~G4 (4) | 48.4 | 붙임줄로 이어받은 소리예요. 새로 누르지 않고 F♯4 소리를 이어 가요. | FAR OTHER DIR TIE_BAR
+d6-02 | key | 화살표 음은 어느 건반일까요? | F4(65) | TIE_CARRY→F♯4·G♭4(66) NO_BAR→F♯4·G♭4(66) | D4~G4 (4) | 40.3 | 붙임줄은 끝났어요. 새로 내는 F4는 자연음이에요. | FAR OTHER TIE_CARRY
+d6-03 | sign | 빛나는 건반 소리가 나게 표를 골라요. 필요 없으면 없음. | 샵 | TIE_CARRY→없음 NO_BAR→없음 DIR→플랫 | D4~G4 (4) | 32.1 | 붙임줄은 끝났어요. 새로 내는 음에는 샵을 다시 붙여요. | TIE_CARRY DIR OTHER
+d6-04 | key | 화살표 음은 어느 건반일까요? | G4(67) | SLUR_CARRY→G♯4·A♭4(68) NO_BAR→G♯4·A♭4(68) | F4~A4 (3) | 48.4 | 이음줄 안이어도 앞 마디의 표는 마디선에서 풀려요. G 자연음이에요. | OTHER SLUR_CARRY
+d6-05 | key | 화살표 음은 어느 건반일까요? | F♯4·G♭4(66) | TIE_CARRY→F4(65) NO_BAR→F4(65) KEY_OCT→F4(65) NO_KEY→F4(65) PLAIN→F4(65) | D4~G4 (4) | 38.7 | 붙임줄은 끝났어요. 새로 내는 음은 조표대로 F♯4예요. | FAR OTHER TIE_CARRY
+d6-06 | link | 이 곡선은 붙임줄일까요, 이음줄일까요? | slur |  | G4~B4 + G5~B5 (6) | 94.9 | 두 음은 줄·칸이 달라 높이가 달라요. 붙임줄은 같은 높이끼리만 돼요. | LINK_SLOT
+d6-07 | link | 이 곡선은 붙임줄일까요, 이음줄일까요? | tie |  | A4~C5 (3) | 48.4 | 같은 줄·칸의 이웃한 두 음이고 새 표가 없어요. 붙임줄이라 뒤의 음은 다시 내지 않아요. | LINK_IS_TIE
+d6-08 | key | 화살표 음은 어느 건반일까요? | C4(60) | TIE_CARRY→C♯4·D♭4(61) NO_BAR→C♯4·D♭4(61) | A3~D4 (4) | 37.5 | 붙임줄은 끝났어요. 새로 내는 C4는 자연음이에요. | FAR OTHER TIE_CARRY
+d6-09 | link | 곡선에 유지 통로가 놓였어요. 맞는지 보고 골라요. | slur |  | F4~A4 (3) | 78.1 | 뒤 음에 내추럴이 있어 높이가 달라요. 높이가 다르면 이음줄이에요. | LINK_SIGN
+d6-10 | sign | 빛나는 건반 소리가 나게 표를 골라요. 필요 없으면 없음. | 내추럴 | TIE_CARRY→없음 ADD→플랫 NO_BAR→없음 KEY_OCT→없음 NO_KEY→없음 PLAIN→없음 | D4~G4 (4) | 35.4 | 붙임줄은 끝났어요. 새로 내는 음에는 내추럴을 다시 붙여요. | TIE_CARRY OTHER ADD
+d7-01 | key | 화살표 음은 어느 건반일까요? | F4(65) | NAT_KEY→F♯4·G♭4(66) NAT_ONCE→F♯4·G♭4(66) SIGN_ONLY→F♯4·G♭4(66) | D4~G4 (4) | 33.1 | 같은 마디 앞의 내추럴이 아직 닿아요. 이 음도 F 자연음이에요. | FAR OTHER NAT_ONCE
+d7-02 | why | 화살표 음의 높이는 무엇이 정했을까요? | 조표 | NO_BAR→같은 마디 앞의 표 NO_KEY→아무것도 없음 PLAIN→아무것도 없음 | A4~C5 (3) | 33.1 | 앞 마디의 표는 마디선에서 풀렸어요. 조표대로 B♭4예요. | WHY
+d7-03 | sign | 빛나는 건반 소리가 나게 표를 골라요. 필요 없으면 없음. | 내추럴 | ADD→플랫 NO_BAR→없음 KEY_OCT→없음 NO_KEY→없음 PLAIN→없음 | D4~A4 (5) | 30.7 | 앞 마디의 표는 마디선에서 풀렸어요. 내추럴을 다시 붙여요. | NO_BAR OTHER ADD
+d7-04 | fix | F 음이 차례로 F♯4, F♯4로 들리게 한 곳을 고쳐요. | {"i":3,"acc":1} |  | D4~G4 (4) | 34.6 | 앞 마디의 표는 마디선에서 풀렸어요. 샵을 다시 붙여요. | FIX_FINE FIX_CARD
+d7-05 | fix | B 음이 차례로 B♭4, B♭4로 들리게 한 곳을 고쳐요. | {"i":0,"acc":-1} |  | A4~D5 (4) | 60.5 | 플랫을 붙이면 같은 마디 뒤의 B에도 닿아요. 한 곳만 고치면 돼요. | FIX_CARD FIX_FINE FIX_ROOT
+d7-06 | fix | C 음이 차례로 C♯5, C♯4로 들리게 한 곳을 고쳐요. | {"i":2,"acc":1} |  | A3~D4 + C5~E5 (7) | 53.2 | 앞의 표는 C5 자리 것이에요. C4에도 샵을 붙여요. | FIX_FINE FIX_CARD
+d7-07 | key | 화살표 음은 어느 건반일까요? | C♯5·D♭5(73) | TIE_CARRY→C5(72) NO_BAR→C5(72) NO_KEY→C5(72) PLAIN→C5(72) | A4~D5 (4) | 37.0 | 붙임줄은 끝났어요. 새로 내는 음은 조표대로 C♯5예요. | FAR OTHER TIE_CARRY
+d7-08 | fix | F 음이 차례로 F4, F♯4로 들리게 한 곳을 고쳐요. | {"i":3,"acc":null} |  | D4~G4 (4) | 35.4 | 표가 없으면 조표대로 F♯4예요. 내추럴을 지워요. | FIX_FINE FIX_CARD
